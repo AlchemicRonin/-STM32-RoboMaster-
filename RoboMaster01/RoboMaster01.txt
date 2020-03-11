@@ -1,0 +1,68 @@
+Configuration	RoboMaster01
+STM32CubeMX 	5.6.0
+Date	03/10/2020
+MCU	STM32F427IIHx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+H14	PG8	GPIO_Output	LD8
+J14	PG7	GPIO_Output	LD7
+J15	PG6	GPIO_Output	LD6
+K13	PG5	GPIO_Output	LD5
+K14	PG4	GPIO_Output	LD4
+K15	PG3	GPIO_Output	LD3
+L15	PG2	GPIO_Output	LD2
+M6	PB2/BOOT1	GPIO_Input	Button
+M7	PG1	GPIO_Output	LD1
+P10	PE11	GPIO_Output	LD_RED
+R7	PF14	GPIO_Output	LD_GREEN
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+H14	PG8	GPIO_Output	LD8
+J14	PG7	GPIO_Output	LD7
+J15	PG6	GPIO_Output	LD6
+K13	PG5	GPIO_Output	LD5
+K14	PG4	GPIO_Output	LD4
+K15	PG3	GPIO_Output	LD3
+L15	PG2	GPIO_Output	LD2
+M6	PB2/BOOT1	GPIO_Input	Button
+M7	PG1	GPIO_Output	LD1
+P10	PE11	GPIO_Output	LD_RED
+R7	PF14	GPIO_Output	LD_GREEN
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : RoboMaster01
+Project Folder : /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.25.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RoboMaster01"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RoboMaster01.elf">
+				<Option output="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/RoboMaster01.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Inc"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 RoboMaster01.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RoboMaster01.elf/fast">
+				<Option output="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/RoboMaster01.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Inc"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 RoboMaster01.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/STM32F427IIHx_FLASH.ld">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Src/main.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Src/stm32f4xx_hal_msp.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Src/stm32f4xx_it.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Src/syscalls.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/Src/system_stm32f4xx.c">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/startup/startup_stm32f427xx.s">
+			<Option target="RoboMaster01.elf"/>
+		</Unit>
+		<Unit filename="/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
