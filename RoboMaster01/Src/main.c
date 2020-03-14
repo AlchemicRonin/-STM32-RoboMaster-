@@ -94,29 +94,30 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+  	if(HAL_GPIO_ReadPin(Button_GPIO_Port,Button_Pin) == GPIO_PIN_SET){
+  		HAL_Delay(500);
+  		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD4_GPIO_Port,LD4_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD5_GPIO_Port,LD5_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD6_GPIO_Port,LD6_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD7_GPIO_Port,LD7_Pin);
+  		HAL_Delay(100);
+  		HAL_GPIO_TogglePin(LD8_GPIO_Port,LD8_Pin);
+  	}
     /* USER CODE END WHILE */
-    if(HAL_GPIO_ReadPin(Button_GPIO_Port,Button_Pin) == GPIO_PIN_SET){
-	    HAL_Delay(500);
-	    HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD4_GPIO_Port,LD4_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD5_GPIO_Port,LD5_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD6_GPIO_Port,LD6_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD7_GPIO_Port,LD7_Pin);
-	    HAL_Delay(100);
-	    HAL_GPIO_TogglePin(LD8_GPIO_Port,LD8_Pin);
-    }
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

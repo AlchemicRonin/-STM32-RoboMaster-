@@ -18,11 +18,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ca29e1-9715-497e-91e4-e0f977318251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Compiler.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster02/.idea/RoboMaster02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster02/.idea/runConfigurations/OCD_RoboMaster02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster02/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster02/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster03/.idea/RoboMaster03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster03/.idea/runConfigurations/OCD_RoboMaster03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster03/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster03/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster01.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster01.elf.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster01.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster01.elf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager" selected="CMake Application.RoboMaster01.elf">
@@ -80,6 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583890002054</updated>
       <workItem from="1583890005543" duration="597000" />
+      <workItem from="1584150078122" duration="13000" />
+      <workItem from="1584210688432" duration="146000" />
     </task>
     <servers />
   </component>
@@ -91,6 +105,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="424" y="116" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583890325323" />
+    <state x="466" y="142" width="426" height="496" key="FileChooserDialogImpl" timestamp="1584150086143">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="142" width="426" height="496" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584150086143" />
     <state x="191" y="13" key="SettingsEditor" timestamp="1583890326385">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
