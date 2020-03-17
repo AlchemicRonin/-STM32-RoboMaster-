@@ -1,0 +1,16 @@
+/opt/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-g++ -G "CodeBlocks - Unix Makefiles" /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster04-3
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster04-3/cmake-build-debug

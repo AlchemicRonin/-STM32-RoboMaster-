@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="RoboMaster02" targetName="RoboMaster02.elf" />
+      <config projectName="RoboMaster04-2" targetName="RoboMaster04-2.elf" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,7 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b9d0e94-ec78-4e33-a11a-9f65061dfc1b" name="Default Changelist" comment="">
+    <list default="true" id="ee7aa33c-096c-427f-bfdc-715d04888092" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/RoboMaster04-1.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/misc.xml" afterDir="false" />
@@ -26,13 +26,13 @@
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/CMakeLists.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/RoboMaster04-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/runConfigurations/OCD_RoboMaster04_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster04-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster04_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/RoboMaster04-3.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/misc.xml" afterDir="false" />
@@ -45,7 +45,7 @@
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/runConfigurations/OCD_RoboMaster04_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/CMakeLists.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster02/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectId" id="1Z6EO5xCv6DRm9fg0eAR6wth2l5" />
+  <component name="ProjectId" id="1ZGJaqEcwfsgYpDTkjxOtE2aptY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -81,18 +81,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RoboMaster01" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager" selected="CMake Application.RoboMaster02.elf">
-    <configuration name="RoboMaster02.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RoboMaster02" TARGET_NAME="RoboMaster02.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RoboMaster02" RUN_TARGET_NAME="RoboMaster02.elf">
+  <component name="RunManager" selected="CMake Application.RoboMaster04-2.elf">
+    <configuration name="RoboMaster04-2.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RoboMaster04-2" TARGET_NAME="RoboMaster04-2.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RoboMaster04-2" RUN_TARGET_NAME="RoboMaster04-2.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.RoboMaster02.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.OCD RoboMaster02" />
+      <item itemvalue="CMake Application.RoboMaster04-2.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD RoboMaster04-2" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -100,18 +99,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b9d0e94-ec78-4e33-a11a-9f65061dfc1b" name="Default Changelist" comment="" />
-      <created>1584151107785</created>
+      <changelist id="ee7aa33c-096c-427f-bfdc-715d04888092" name="Default Changelist" comment="" />
+      <created>1584459563882</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584151107785</updated>
-      <workItem from="1584151125136" duration="1003000" />
-      <workItem from="1584199744603" duration="94000" />
-      <workItem from="1584210643951" duration="43000" />
-      <workItem from="1584210836030" duration="56000" />
-      <workItem from="1584461463221" duration="9000" />
-      <workItem from="1584464986473" duration="11000" />
-      <workItem from="1584467440112" duration="16000" />
+      <updated>1584459563882</updated>
+      <workItem from="1584459580767" duration="382000" />
+      <workItem from="1584460024755" duration="170000" />
+      <workItem from="1584460222850" duration="1211000" />
+      <workItem from="1584461449224" duration="5000" />
+      <workItem from="1584461473441" duration="333000" />
+      <workItem from="1584461922980" duration="26000" />
+      <workItem from="1584461973728" duration="553000" />
+      <workItem from="1584463749333" duration="229000" />
+      <workItem from="1584464918044" duration="67000" />
     </task>
     <servers />
   </component>
@@ -119,17 +120,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="116" key="EnvironmentVariablesDialog" timestamp="1584151627943">
+    <state x="424" y="116" key="EnvironmentVariablesDialog" timestamp="1584459848990">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="424" y="116" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584151627943" />
-    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl" timestamp="1584210686449">
+    <state x="424" y="116" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584459848990" />
+    <state x="469" y="121" key="FileChooserDialogImpl" timestamp="1584462522802">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584210686449" />
-    <state x="191" y="13" key="SettingsEditor" timestamp="1584151629018">
+    <state x="469" y="121" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584462522802" />
+    <state x="191" y="13" key="SettingsEditor" timestamp="1584459850340">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584151629018" />
+    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584459850340" />
+    <state x="347" y="166" key="run.anything.popup" timestamp="1584463897975">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="347" y="166" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584463897975" />
   </component>
 </project>
