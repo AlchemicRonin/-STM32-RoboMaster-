@@ -1,0 +1,58 @@
+Configuration	RoboMaster04-1
+STM32CubeMX 	5.6.0
+Date	03/17/2020
+MCU	STM32F427IIHx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+UART7	Asynchronous	UART7_RX	PE7
+UART7	Asynchronous	UART7_TX	PE8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+M6	PB2/BOOT1	GPIO_EXTI2	Button
+P8	PE8	UART7_TX	
+P10	PE11	GPIO_Output	LD_RED
+R8	PE7	UART7_RX	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+UART7	Asynchronous	UART7_RX	PE7
+UART7	Asynchronous	UART7_TX	PE8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+M6	PB2/BOOT1	GPIO_EXTI2	Button
+P8	PE8	UART7_TX	
+P10	PE11	GPIO_Output	LD_RED
+R8	PE7	UART7_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : RoboMaster04-1
+Project Folder : /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster04-1
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.25.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

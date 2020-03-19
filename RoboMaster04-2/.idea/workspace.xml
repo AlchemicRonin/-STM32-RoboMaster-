@@ -17,36 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee7aa33c-096c-427f-bfdc-715d04888092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/RoboMaster04-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/runConfigurations/OCD_RoboMaster04_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster04-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster04_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/RoboMaster04-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/runConfigurations/OCD_RoboMaster04_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/RoboMaster04-4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/runConfigurations/OCD_RoboMaster04_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboMaster02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster02/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ee7aa33c-096c-427f-bfdc-715d04888092" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,6 +84,7 @@
       <workItem from="1584461973728" duration="553000" />
       <workItem from="1584463749333" duration="229000" />
       <workItem from="1584464918044" duration="67000" />
+      <workItem from="1584486157900" duration="27000" />
     </task>
     <servers />
   </component>
