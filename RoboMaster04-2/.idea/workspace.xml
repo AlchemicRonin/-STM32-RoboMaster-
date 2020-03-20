@@ -7,17 +7,26 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug">
-        <ADDITIONAL_GENERATION_ENVIRONMENT>
-          <envs>
-            <env name="PATH" value="$USER_HOME$/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin" />
-          </envs>
-        </ADDITIONAL_GENERATION_ENVIRONMENT>
-      </configuration>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee7aa33c-096c-427f-bfdc-715d04888092" name="Default Changelist" comment="" />
+    <list default="true" id="ee7aa33c-096c-427f-bfdc-715d04888092" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +94,7 @@
       <workItem from="1584463749333" duration="229000" />
       <workItem from="1584464918044" duration="67000" />
       <workItem from="1584486157900" duration="27000" />
+      <workItem from="1584736694863" duration="10000" />
     </task>
     <servers />
   </component>
@@ -100,10 +110,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="469" y="121" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584462522802" />
-    <state x="191" y="13" key="SettingsEditor" timestamp="1584459850340">
+    <state x="191" y="13" key="SettingsEditor" timestamp="1584736699803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584459850340" />
+    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584736699803" />
     <state x="347" y="166" key="run.anything.popup" timestamp="1584463897975">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

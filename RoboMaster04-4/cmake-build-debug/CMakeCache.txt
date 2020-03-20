@@ -55,8 +55,8 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=-j4
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-g++
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:UNINITIALIZED=/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-g++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -81,8 +81,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=
 
-//C compiler
-CMAKE_C_COMPILER:STRING=/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:UNINITIALIZED=/home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler

@@ -7,22 +7,15 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug">
-        <ADDITIONAL_GENERATION_ENVIRONMENT>
-          <envs>
-            <env name="PATH" value="$USER_HOME$/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin" />
-          </envs>
-        </ADDITIONAL_GENERATION_ENVIRONMENT>
-      </configuration>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee1635d8-9691-4fd1-ae82-7ea7918d5aee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster05-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster05_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584716141472</updated>
       <workItem from="1584716157788" duration="2798000" />
+      <workItem from="1584736544067" duration="114000" />
     </task>
     <servers />
   </component>
@@ -93,9 +87,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="424" y="116" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584719591528" />
-    <state x="191" y="13" key="SettingsEditor" timestamp="1584719593181">
+    <state x="191" y="13" width="992" height="742" key="SettingsEditor" timestamp="1584736576285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584719593181" />
+    <state x="191" y="13" width="992" height="742" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584736576285" />
   </component>
 </project>

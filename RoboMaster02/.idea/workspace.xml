@@ -7,45 +7,35 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug">
-        <ADDITIONAL_GENERATION_ENVIRONMENT>
-          <envs>
-            <env name="PATH" value="$USER_HOME$/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin" />
-          </envs>
-        </ADDITIONAL_GENERATION_ENVIRONMENT>
-      </configuration>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b9d0e94-ec78-4e33-a11a-9f65061dfc1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/RoboMaster04-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/runConfigurations/OCD_RoboMaster04_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-1/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/RoboMaster04-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/runConfigurations/OCD_RoboMaster04_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-2/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/RoboMaster04-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/.idea/runConfigurations/OCD_RoboMaster04_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-3/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/RoboMaster04-4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/.idea/runConfigurations/OCD_RoboMaster04_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster04-4/CMakeLists_template.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster03/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster03/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster03/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster03/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster03/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster03/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-2/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster04-4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +102,7 @@
       <workItem from="1584461463221" duration="9000" />
       <workItem from="1584464986473" duration="11000" />
       <workItem from="1584467440112" duration="16000" />
+      <workItem from="1584736736082" duration="23000" />
     </task>
     <servers />
   </component>
@@ -123,13 +114,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="424" y="116" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584151627943" />
-    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl" timestamp="1584210686449">
+    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl" timestamp="1584736758207">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584210686449" />
-    <state x="191" y="13" key="SettingsEditor" timestamp="1584151629018">
+    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584736758207" />
+    <state x="191" y="13" key="SettingsEditor" timestamp="1584736740743">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584151629018" />
+    <state x="191" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584736740743" />
   </component>
 </project>
