@@ -101,31 +101,6 @@ int main(void)
   /* USER CODE END 3 */
 }
 
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-	if(GPIO_Pin == Button_Pin){
-		HAL_Delay(500);
-		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD4_GPIO_Port,LD4_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD5_GPIO_Port,LD5_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD6_GPIO_Port,LD6_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD7_GPIO_Port,LD7_Pin);
-		HAL_Delay(100);
-		HAL_GPIO_TogglePin(LD8_GPIO_Port,LD8_Pin);
-	}
-}
-
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -225,7 +200,30 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+	if(GPIO_Pin == Button_Pin){
+		HAL_Delay(500);
+		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD4_GPIO_Port,LD4_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD5_GPIO_Port,LD5_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD6_GPIO_Port,LD6_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD7_GPIO_Port,LD7_Pin);
+		HAL_Delay(100);
+		HAL_GPIO_TogglePin(LD8_GPIO_Port,LD8_Pin);
+	}
+}
 /* USER CODE END 4 */
 
 /**

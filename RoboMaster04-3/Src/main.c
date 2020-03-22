@@ -20,11 +20,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "string.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -136,19 +135,6 @@ int main(void)
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
-}
-
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
-	if(GPIO_Pin == Button_Pin){
-		HAL_Delay(500);
-		HAL_UART_Transmit_DMA(&huart7,(uint8_t*)msg,strlen(msg));
-	}
-}
-
-void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
-	HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-	HAL_Delay(200);
-	HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
 }
 
 /**
@@ -274,7 +260,18 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	if(GPIO_Pin == Button_Pin){
+		HAL_Delay(500);
+		HAL_UART_Transmit_DMA(&huart7,(uint8_t*)msg,strlen(msg));
+	}
+}
 
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
+	HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+	HAL_Delay(200);
+	HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+}
 /* USER CODE END 4 */
 
 /**

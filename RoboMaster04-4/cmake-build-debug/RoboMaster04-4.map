@@ -166,7 +166,7 @@ Discarded input sections
                 0x0000000000000000       0x38 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_ranges  0x0000000000000000       0x28 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_line    0x0000000000000000      0xfa2 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_str     0x0000000000000000      0x6a4 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_str     0x0000000000000000      0x6a7 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_frame   0x0000000000000000       0xac CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -198,7 +198,7 @@ Discarded input sections
                 0x0000000000000000       0x60 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_ranges  0x0000000000000000       0x50 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_line    0x0000000000000000      0x5e4 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_str     0x0000000000000000      0x53c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_str     0x0000000000000000      0x53f CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_frame   0x0000000000000000      0x174 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .ARM.attributes
@@ -247,7 +247,7 @@ Discarded input sections
                 0x0000000000000000       0xa0 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_ranges  0x0000000000000000       0x90 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_line    0x0000000000000000      0x6a7 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_str     0x0000000000000000      0x662 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_str     0x0000000000000000      0x665 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_frame   0x0000000000000000      0x274 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .ARM.attributes
@@ -309,7 +309,7 @@ Discarded input sections
                 0x0000000000000000       0xd8 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_ranges  0x0000000000000000       0xc8 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_line    0x0000000000000000      0x90c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_str     0x0000000000000000      0x7ff CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_str     0x0000000000000000      0x802 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_frame   0x0000000000000000      0x378 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -322,7 +322,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_line    0x0000000000000000      0x24b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x0000000000000000      0x329 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x0000000000000000      0x32c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
                 0x0000000000000000       0x33 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -380,7 +380,7 @@ Discarded input sections
                 0x0000000000000000       0xa0 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_ranges  0x0000000000000000       0x90 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_line    0x0000000000000000      0x4e7 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_str     0x0000000000000000      0x693 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_str     0x0000000000000000      0x696 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_frame   0x0000000000000000      0x254 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -412,7 +412,7 @@ Discarded input sections
                 0x0000000000000000       0x60 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_ranges  0x0000000000000000       0x50 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_line    0x0000000000000000      0x51c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_str     0x0000000000000000      0x61b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x0000000000000000      0x61e CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_frame   0x0000000000000000      0x14c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -461,7 +461,7 @@ Discarded input sections
                 0x0000000000000000       0x58 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_ranges  0x0000000000000000       0x48 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_line    0x0000000000000000      0x7d8 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_str     0x0000000000000000      0x698 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_str     0x0000000000000000      0x69b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_frame   0x0000000000000000      0x13c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .ARM.attributes
@@ -474,7 +474,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_line    0x0000000000000000      0x24b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_str     0x0000000000000000      0x31f CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x0000000000000000      0x322 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .ARM.attributes
                 0x0000000000000000       0x33 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -486,7 +486,7 @@ Discarded input sections
  .debug_aranges
                 0x0000000000000000       0x18 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_line    0x0000000000000000      0x24b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_str     0x0000000000000000      0x322 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x0000000000000000      0x325 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x0000000000000000       0x33 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -609,7 +609,7 @@ Discarded input sections
                 0x0000000000000000       0xb0 CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
  .debug_ranges  0x0000000000000000       0xa0 CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
  .debug_line    0x0000000000000000      0x4ca CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
- .debug_str     0x0000000000000000      0x8c7 CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
+ .debug_str     0x0000000000000000      0x8ca CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
  .comment       0x0000000000000000       0x7a CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
  .debug_frame   0x0000000000000000      0x2d0 CMakeFiles/RoboMaster04-4.elf.dir/Src/syscalls.c.obj
  .ARM.attributes
@@ -887,24 +887,24 @@ LOAD /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc
                 0x0000000008002448      0x740 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.main     0x0000000008002b88       0x4c CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
                 0x0000000008002b88                main
- .text.HAL_GPIO_EXTI_Callback
-                0x0000000008002bd4       0x48 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
-                0x0000000008002bd4                HAL_GPIO_EXTI_Callback
- .text.HAL_UART_TxCpltCallback
-                0x0000000008002c1c       0x60 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
-                0x0000000008002c1c                HAL_UART_TxCpltCallback
- .text.HAL_UART_RxCpltCallback
-                0x0000000008002c7c       0x2c CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
-                0x0000000008002c7c                HAL_UART_RxCpltCallback
  .text.SystemClock_Config
-                0x0000000008002ca8       0xc0 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
-                0x0000000008002ca8                SystemClock_Config
+                0x0000000008002bd4       0xc0 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002bd4                SystemClock_Config
  .text.MX_UART7_Init
-                0x0000000008002d68       0x54 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002c94       0x54 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
  .text.MX_DMA_Init
-                0x0000000008002dbc       0x50 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002ce8       0x50 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
  .text.MX_GPIO_Init
-                0x0000000008002e0c      0x104 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002d38      0x104 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+ .text.HAL_GPIO_EXTI_Callback
+                0x0000000008002e3c       0x48 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002e3c                HAL_GPIO_EXTI_Callback
+ .text.HAL_UART_TxCpltCallback
+                0x0000000008002e84       0x60 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002e84                HAL_UART_TxCpltCallback
+ .text.HAL_UART_RxCpltCallback
+                0x0000000008002ee4       0x2c CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                0x0000000008002ee4                HAL_UART_RxCpltCallback
  .text.Error_Handler
                 0x0000000008002f10        0xc CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
                 0x0000000008002f10                Error_Handler
@@ -1247,31 +1247,33 @@ LOAD /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc
                 0x0000000000000316       0x1e /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(RoboMaster04-4.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0x7983
+.debug_info     0x0000000000000000     0x79a6
  .debug_info    0x0000000000000000      0xa13 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_info    0x0000000000000a13      0xef6 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_info    0x0000000000001909      0x9e6 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_info    0x00000000000022ef      0x83f CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_info    0x0000000000002b2e      0x9a7 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_info    0x00000000000034d5     0x134c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_info    0x0000000000004821     0x1800 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
- .debug_info    0x0000000000006021      0xc7b CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x0000000000006c9c      0x732 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_info    0x00000000000073ce      0x5b5 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_info    0x0000000000004821     0x1801 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+ .debug_info    0x0000000000006022      0xc7b CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x0000000000006c9d      0x732 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_info    0x00000000000073cf      0x5b5 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_info    0x0000000000007984       0x22 CMakeFiles/RoboMaster04-4.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_abbrev   0x0000000000000000     0x1560
+.debug_abbrev   0x0000000000000000     0x1563
  .debug_abbrev  0x0000000000000000      0x1ea CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_abbrev  0x00000000000001ea      0x339 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_abbrev  0x0000000000000523      0x256 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_abbrev  0x0000000000000779      0x1ee CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_abbrev  0x0000000000000967      0x272 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_abbrev  0x0000000000000bd9      0x26d CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_abbrev  0x0000000000000e46      0x2c6 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
- .debug_abbrev  0x000000000000110c      0x1b2 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x00000000000012be      0x160 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x000000000000141e      0x142 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x0000000000000e46      0x2b7 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+ .debug_abbrev  0x00000000000010fd      0x1b2 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000000000012af      0x160 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x000000000000140f      0x142 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_abbrev  0x0000000000001551       0x12 CMakeFiles/RoboMaster04-4.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_aranges  0x0000000000000000      0x690
+.debug_aranges  0x0000000000000000      0x6b8
  .debug_aranges
                 0x0000000000000000      0x100 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_aranges
@@ -1292,8 +1294,10 @@ OUTPUT(RoboMaster04-4.elf elf32-littlearm)
                 0x00000000000005e8       0x80 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
  .debug_aranges
                 0x0000000000000668       0x28 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_aranges
+                0x0000000000000690       0x28 CMakeFiles/RoboMaster04-4.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_ranges   0x0000000000000000      0x5f0
+.debug_ranges   0x0000000000000000      0x610
  .debug_ranges  0x0000000000000000       0xf0 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_ranges  0x00000000000000f0      0x108 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_ranges  0x00000000000001f8       0x80 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -1304,40 +1308,44 @@ OUTPUT(RoboMaster04-4.elf elf32-littlearm)
  .debug_ranges  0x0000000000000548       0x20 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
  .debug_ranges  0x0000000000000568       0x70 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
  .debug_ranges  0x00000000000005d8       0x18 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_ranges  0x00000000000005f0       0x20 CMakeFiles/RoboMaster04-4.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_line     0x0000000000000000     0x5054
+.debug_line     0x0000000000000000     0x5112
  .debug_line    0x0000000000000000      0x623 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_line    0x0000000000000623      0x8ae CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_line    0x0000000000000ed1      0xb6d CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_line    0x0000000000001a3e      0x7b5 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_line    0x00000000000021f3      0x999 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_line    0x0000000000002b8c     0x1434 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x0000000000003fc0      0x547 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
- .debug_line    0x0000000000004507      0x3cd CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000000000048d4      0x421 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000004cf5      0x35f CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x0000000000003fc0      0x549 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+ .debug_line    0x0000000000004509      0x3cd CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000000000048d6      0x421 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_line    0x0000000000004cf7      0x35f CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x0000000000005056       0xbc CMakeFiles/RoboMaster04-4.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_str      0x0000000000000000     0x29d7
- .debug_str     0x0000000000000000      0xc11 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                                        0xc7a (size before relaxing)
- .debug_str     0x0000000000000c11      0x52b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                                        0xdb0 (size before relaxing)
- .debug_str     0x000000000000113c      0x572 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                                        0x8a3 (size before relaxing)
- .debug_str     0x00000000000016ae      0x21c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                                        0x63c (size before relaxing)
- .debug_str     0x00000000000018ca      0x332 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                        0x7f3 (size before relaxing)
- .debug_str     0x0000000000001bfc      0x727 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                                        0xcf3 (size before relaxing)
- .debug_str     0x0000000000002323      0x4a2 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
-                                       0x140e (size before relaxing)
- .debug_str     0x00000000000027c5       0x59 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-                                        0xe43 (size before relaxing)
- .debug_str     0x000000000000281e      0x136 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
-                                        0x812 (size before relaxing)
- .debug_str     0x0000000000002954       0x83 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
-                                        0x4a0 (size before relaxing)
+.debug_str      0x0000000000000000     0x2a47
+ .debug_str     0x0000000000000000      0xc14 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                                        0xc7d (size before relaxing)
+ .debug_str     0x0000000000000c14      0x52b CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                                        0xdb3 (size before relaxing)
+ .debug_str     0x000000000000113f      0x572 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                                        0x8a6 (size before relaxing)
+ .debug_str     0x00000000000016b1      0x21c CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                                        0x63f (size before relaxing)
+ .debug_str     0x00000000000018cd      0x332 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                                        0x7f6 (size before relaxing)
+ .debug_str     0x0000000000001bff      0x727 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                                        0xcf6 (size before relaxing)
+ .debug_str     0x0000000000002326      0x4a2 CMakeFiles/RoboMaster04-4.elf.dir/Src/main.c.obj
+                                       0x1411 (size before relaxing)
+ .debug_str     0x00000000000027c8       0x59 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                                        0xe46 (size before relaxing)
+ .debug_str     0x0000000000002821      0x136 CMakeFiles/RoboMaster04-4.elf.dir/Src/stm32f4xx_it.c.obj
+                                        0x815 (size before relaxing)
+ .debug_str     0x0000000000002957       0x83 CMakeFiles/RoboMaster04-4.elf.dir/Src/system_stm32f4xx.c.obj
+                                        0x4a3 (size before relaxing)
+ .debug_str     0x00000000000029da       0x6d CMakeFiles/RoboMaster04-4.elf.dir/startup/startup_stm32f427xx.s.obj
+                                         0xc0 (size before relaxing)
 
 .comment        0x0000000000000000       0x79
  .comment       0x0000000000000000       0x79 CMakeFiles/RoboMaster04-4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj

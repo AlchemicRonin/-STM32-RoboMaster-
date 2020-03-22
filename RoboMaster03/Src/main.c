@@ -20,11 +20,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "string.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -103,52 +102,6 @@ int main(void)
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
-}
-
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *UartHandle){
-	switch(readBuf[0]){
-		case 'r':
-			HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED_RED!\r\n",strlen("LED_RED!\r\n"),HAL_MAX_DELAY);
-			break;
-		case 'g':
-			HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED_GREEN!\r\n",strlen("LED_GREEN!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '1':
-			HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED1!\r\n",strlen("LED1!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '2':
-			HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED2!\r\n",strlen("LED2!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '3':
-			HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED3!\r\n",strlen("LED3!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '4':
-			HAL_GPIO_TogglePin(LD4_GPIO_Port,LD4_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED4!\r\n",strlen("LED4!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '5':
-			HAL_GPIO_TogglePin(LD5_GPIO_Port,LD5_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED5!\r\n",strlen("LED5!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '6':
-			HAL_GPIO_TogglePin(LD6_GPIO_Port,LD6_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED6!\r\n",strlen("LED6!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '7':
-			HAL_GPIO_TogglePin(LD7_GPIO_Port,LD7_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED7!\r\n",strlen("LED7!\r\n"),HAL_MAX_DELAY);
-			break;
-		case '8':
-			HAL_GPIO_TogglePin(LD8_GPIO_Port,LD8_Pin);
-			HAL_UART_Transmit(&huart7,(uint8_t*)"LED8!\r\n",strlen("LED8!\r\n"),HAL_MAX_DELAY);
-			break;
-	}
-	HAL_UART_Receive_IT(&huart7,(uint8_t*)readBuf,1);
 }
 
 /**
@@ -272,7 +225,51 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *UartHandle){
+	switch(readBuf[0]){
+		case 'r':
+			HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED_RED!\r\n",strlen("LED_RED!\r\n"),HAL_MAX_DELAY);
+			break;
+		case 'g':
+			HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED_GREEN!\r\n",strlen("LED_GREEN!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '1':
+			HAL_GPIO_TogglePin(LD1_GPIO_Port,LD1_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED1!\r\n",strlen("LED1!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '2':
+			HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED2!\r\n",strlen("LED2!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '3':
+			HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED3!\r\n",strlen("LED3!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '4':
+			HAL_GPIO_TogglePin(LD4_GPIO_Port,LD4_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED4!\r\n",strlen("LED4!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '5':
+			HAL_GPIO_TogglePin(LD5_GPIO_Port,LD5_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED5!\r\n",strlen("LED5!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '6':
+			HAL_GPIO_TogglePin(LD6_GPIO_Port,LD6_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED6!\r\n",strlen("LED6!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '7':
+			HAL_GPIO_TogglePin(LD7_GPIO_Port,LD7_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED7!\r\n",strlen("LED7!\r\n"),HAL_MAX_DELAY);
+			break;
+		case '8':
+			HAL_GPIO_TogglePin(LD8_GPIO_Port,LD8_Pin);
+			HAL_UART_Transmit(&huart7,(uint8_t*)"LED8!\r\n",strlen("LED8!\r\n"),HAL_MAX_DELAY);
+			break;
+	}
+	HAL_UART_Receive_IT(&huart7,(uint8_t*)readBuf,1);
+}
 /* USER CODE END 4 */
 
 /**

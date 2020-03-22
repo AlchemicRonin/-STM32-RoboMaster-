@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="RoboMaster05-3" targetName="RoboMaster05-3.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb9d5fb8-75ae-4bae-bbba-d8668b81f811" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/RoboMaster05-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/runConfigurations/OCD_RoboMaster05_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster05-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster05_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/RoboMaster05-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/runConfigurations/OCD_RoboMaster05_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/RoboMaster05-5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/runConfigurations/OCD_RoboMaster05_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.map" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZSULomamqwEtOS8WLgBI9wHlNY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.RoboMaster05-3.elf">
+    <configuration name="RoboMaster05-3.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RoboMaster05-3" TARGET_NAME="RoboMaster05-3.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RoboMaster05-3" RUN_TARGET_NAME="RoboMaster05-3.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.RoboMaster05-3.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD RoboMaster05-3" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb9d5fb8-75ae-4bae-bbba-d8668b81f811" name="Default Changelist" comment="" />
+      <created>1584831935465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584831935465</updated>
+      <workItem from="1584831952291" duration="657000" />
+      <workItem from="1584839282467" duration="2212000" />
+      <workItem from="1584841837133" duration="1217000" />
+      <workItem from="1584848053120" duration="760000" />
+      <workItem from="1584848833235" duration="1774000" />
+      <workItem from="1584852258700" duration="698000" />
+      <workItem from="1584895265583" duration="1169000" />
+      <workItem from="1584902170779" duration="606000" />
+      <workItem from="1584904381309" duration="84000" />
+      <workItem from="1584911948485" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl" timestamp="1584896431137">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="461" y="133" width="426" height="526" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584896431137" />
+  </component>
+</project>

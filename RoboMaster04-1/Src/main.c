@@ -20,11 +20,10 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "string.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -136,19 +135,6 @@ int main(void)
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
-}
-
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
-	if(GPIO_Pin == Button_Pin){
-		HAL_Delay(500);
-		HAL_DMA_Start(&hdma_uart7_tx,(uint32_t)msg,(uint32_t)&huart7.Instance->DR,strlen(msg));
-		huart7.Instance->CR3|=USART_CR3_DMAT;
-		HAL_DMA_PollForTransfer(&hdma_uart7_tx,HAL_DMA_FULL_TRANSFER,HAL_MAX_DELAY);
-		huart7.Instance->CR3&=~USART_CR3_DMAT;
-		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-		HAL_Delay(200);
-		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-	}
 }
 
 /**
@@ -274,7 +260,18 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	if(GPIO_Pin == Button_Pin){
+		HAL_Delay(500);
+		HAL_DMA_Start(&hdma_uart7_tx,(uint32_t)msg,(uint32_t)&huart7.Instance->DR,strlen(msg));
+		huart7.Instance->CR3|=USART_CR3_DMAT;
+		HAL_DMA_PollForTransfer(&hdma_uart7_tx,HAL_DMA_FULL_TRANSFER,HAL_MAX_DELAY);
+		huart7.Instance->CR3&=~USART_CR3_DMAT;
+		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+	}
+}
 /* USER CODE END 4 */
 
 /**

@@ -20,12 +20,11 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "string.h"
-#include "stdbool.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "string.h"
+#include "stdbool.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -128,46 +127,20 @@ int main(void)
   MX_DMA_Init();
   MX_UART7_Init();
   /* USER CODE BEGIN 2 */
-  HAL_GPIO_WritePin(LD_RED_GPIO_Port,LD_RED_Pin,GPIO_PIN_SET);
-  HAL_GPIO_WritePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin,GPIO_PIN_SET);
-  HAL_UART_Receive_DMA(&huart7,data,1);
+	HAL_GPIO_WritePin(LD_RED_GPIO_Port,LD_RED_Pin,GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LD_GREEN_GPIO_Port,LD_GREEN_Pin,GPIO_PIN_SET);
+	HAL_UART_Receive_DMA(&huart7,data,1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
+	while (1)
+	{
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  }
+	}
   /* USER CODE END 3 */
-}
-
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
-	if(GPIO_Pin == Button_Pin){
-		HAL_Delay(500);
-		flag=true;
-		HAL_UART_Transmit_DMA(&huart7,(uint8_t*)msg,strlen(msg));
-	}
-}
-
-void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
-	if(flag==true){
-		flag=false;
-		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-		HAL_Delay(200);
-		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
-	}else{
-		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port, LD_GREEN_Pin);
-		HAL_Delay(200);
-		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port, LD_GREEN_Pin);
-	}
-}
-
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
-	HAL_UART_Transmit_DMA(&huart7,data,1);
-	HAL_UART_Receive_DMA(&huart7,data,1);
 }
 
 /**
@@ -193,7 +166,7 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  /** Initializes the CPU, AHB and APB busses clocks
+  /** Initializes the CPU, AHB and APB busses clocks 
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
@@ -307,7 +280,31 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	if(GPIO_Pin == Button_Pin){
+		HAL_Delay(500);
+		flag=true;
+		HAL_UART_Transmit_DMA(&huart7,(uint8_t*)msg,strlen(msg));
+	}
+}
 
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
+	if(flag==true){
+		flag=false;
+		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin(LD_RED_GPIO_Port,LD_RED_Pin);
+	}else{
+		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port, LD_GREEN_Pin);
+		HAL_Delay(200);
+		HAL_GPIO_TogglePin(LD_GREEN_GPIO_Port, LD_GREEN_Pin);
+	}
+}
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
+	HAL_UART_Transmit_DMA(&huart7,data,1);
+	HAL_UART_Receive_DMA(&huart7,data,1);
+}
 /* USER CODE END 4 */
 
 /**
@@ -317,7 +314,7 @@ static void MX_GPIO_Init(void)
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
+	/* User can add his own implementation to report the HAL error return state */
 
   /* USER CODE END Error_Handler_Debug */
 }
