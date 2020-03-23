@@ -374,6 +374,24 @@ main.h
 stm32f4xx_it.h
 /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster05-3/Src/stm32f4xx_it.h
 
+/home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster05-3/Src/syscalls.c
+sys/stat.h
+-
+stdlib.h
+-
+errno.h
+-
+stdio.h
+-
+signal.h
+-
+time.h
+-
+sys/time.h
+-
+sys/times.h
+-
+
 /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster05-3/Src/system_stm32f4xx.c
 stm32f4xx.h
 /home/alchemic_ronin/Documents/-STM32-RoboMaster-/RoboMaster05-3/Src/stm32f4xx.h

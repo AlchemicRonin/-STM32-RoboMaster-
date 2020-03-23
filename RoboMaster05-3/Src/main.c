@@ -91,9 +91,6 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
-  __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,2000);
-  //HAL_Delay(500);
-  __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,1000);
   /* USER CODE END 2 */
 
   /* Infinite loop */

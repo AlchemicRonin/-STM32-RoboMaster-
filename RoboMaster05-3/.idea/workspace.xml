@@ -12,42 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb9d5fb8-75ae-4bae-bbba-d8668b81f811" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/RoboMaster05-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/runConfigurations/OCD_RoboMaster05_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-2/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster05-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster05_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/RoboMaster05-4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/runConfigurations/OCD_RoboMaster05_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-4/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/RoboMaster05-5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/runConfigurations/OCD_RoboMaster05_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoboMaster05-5/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboMaster01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Inc/stm32f4xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/RoboMaster05-1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_hal_msp.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/CMakeFiles/RoboMaster05-1.elf.dir/Src/stm32f4xx_it.c.obj" afterDir="false" />
@@ -55,6 +28,20 @@
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.map" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/cmake-build-debug/RoboMaster05-1.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/ASM.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-3.elf.dir/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-3.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RoboMaster05-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="CMake Application.RoboMaster05-3.elf">
     <configuration name="RoboMaster05-3.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RoboMaster05-3" TARGET_NAME="RoboMaster05-3.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RoboMaster05-3" RUN_TARGET_NAME="RoboMaster05-3.elf">
@@ -120,6 +108,7 @@
       <workItem from="1584902170779" duration="606000" />
       <workItem from="1584904381309" duration="84000" />
       <workItem from="1584911948485" duration="9000" />
+      <workItem from="1584921865340" duration="333000" />
     </task>
     <servers />
   </component>
