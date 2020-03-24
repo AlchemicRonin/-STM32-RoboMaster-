@@ -18,3 +18,8 @@
   - **键盘回响**
 - [从STM32开始的RoboMaster生活：进阶篇 V [Clock Tree]](https://alchemicronin.github.io/posts/44ad04be.html)
 - [从STM32开始的RoboMaster生活：进阶篇 VI [Timer & PWM]](https://alchemicronin.github.io/posts/fd31d369.html)
+  - **彩灯**
+  - **呼吸灯**
+  - **舵机控制**
+  - **电机控制（单向转动模式）**
+  - **电机控制（双向转动模式）**
