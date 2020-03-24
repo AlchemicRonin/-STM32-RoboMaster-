@@ -106,8 +106,6 @@ int main(void)
 	    __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,flag--);
 	    HAL_Delay(3);
   	}
-  	//__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,2000);
-  	//HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
