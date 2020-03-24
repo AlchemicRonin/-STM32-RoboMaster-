@@ -15,6 +15,9 @@
   - **电脑控制LED灯**
 - [从STM32开始的RoboMaster生活：进阶篇 IV [DMA]](https://alchemicronin.github.io/posts/90d72de.html)
   - **一键发送信息**
+    - **DMA泛用方法 Polling**
+    - **DMA泛用方法 Interrupt**
+    - **UART特化方法**
   - **键盘回响**
 - [从STM32开始的RoboMaster生活：进阶篇 V [Clock Tree]](https://alchemicronin.github.io/posts/44ad04be.html)
 - [从STM32开始的RoboMaster生活：进阶篇 VI [Timer & PWM]](https://alchemicronin.github.io/posts/fd31d369.html)
