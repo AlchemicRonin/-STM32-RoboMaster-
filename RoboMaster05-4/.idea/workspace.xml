@@ -12,15 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="551652b5-d11e-49cc-ae3d-83332c3e3b3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RoboMaster01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboMaster05-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-4.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-4.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-4.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster05-4.elf.dir/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-4.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster05-4.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RoboMaster05-5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RoboMaster05-5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +91,8 @@
       <workItem from="1584923152883" duration="10000" />
       <workItem from="1584929524739" duration="24000" />
       <workItem from="1585015298768" duration="54000" />
+      <workItem from="1585015425926" duration="62000" />
+      <workItem from="1585015606846" duration="68000" />
     </task>
     <servers />
   </component>
