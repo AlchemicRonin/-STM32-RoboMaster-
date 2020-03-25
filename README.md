@@ -37,7 +37,7 @@
 - **Datasheet**
 - **Reference Manual**
 
-## 4.0 设备文档 RM Device Doc
+## 4.0 硬件文档 RM Device Doc
 
 - **RoboMaster 6623直流无刷电机说明书**
 - **RoboMaster AI机器人 2019标准版 用户手册v1.0**
