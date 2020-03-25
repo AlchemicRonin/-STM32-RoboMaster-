@@ -26,3 +26,17 @@
   - **舵机控制**
   - **电机控制（单向转动模式）**
   - **电机控制（双向转动模式）**
+
+## 3.0 教科书
+
+- **Introduction to Computing Systems [Third Edition]**
+- **C Primer Plus**
+- **Mastering STM32**
+- **STM32 HAL 库开发实战指南—基于F429_挑战者V2**
+- **STM32F429开发指南-HAL库版本_V1.1**
+- **Datasheet**
+- **Reference Manual**
+
+## 4.0 代码收藏
+
+- **RM2019机甲大师赛官方赠与步兵代码开源**
