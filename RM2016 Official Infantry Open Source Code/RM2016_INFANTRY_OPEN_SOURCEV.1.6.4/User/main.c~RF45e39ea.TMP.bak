@@ -1,0 +1,189 @@
+#include "main.h"
+
+
+typedef struct velocity_pid{
+	float Kp;
+	float Ki;
+	float Kd;
+	float last_error;
+	float cur_error;
+    float last_iterm;
+    float p_term;
+    float i_term;
+    float d_term;
+    float output;	
+}Velocity_PID_TypeDef;
+
+typedef struct position_pid{
+    float Kp;
+    float Ki;
+    float Kd;
+    float last_iterm;
+    float last_error;
+    float cur_error;
+    float output;
+}Motor_Position_TypeDef;
+
+
+#if CONTROL_WITH_24V /* use this sector when this mcu controls the chassis with pmsm directly */
+
+#define SPEED_MAX    50
+#define CURRENT_MAX	 3000
+
+static float velocity_kp_tmp = 300;   //240
+static float velocity_ki_tmp = 0;
+static float velocity_kd_tmp = 15;   //20
+
+static float position_kp_tmp = 0;   //0.08
+static float position_ki_tmp = 0;
+static float position_kd_tmp = 0;
+
+Velocity_PID_TypeDef motor1 = {10.5,0,0,0,0,0,0,0,0,0};
+Velocity_PID_TypeDef motor2 = {10.5,0,0,0,0,0,0,0,0,0};
+Velocity_PID_TypeDef motor3 = {10.5,0,0,0,0,0,0,0,0,0};
+Velocity_PID_TypeDef motor4 = {10.5,0,0,0,0,0,0,0,0,0};
+
+Motor_Position_TypeDef pos_motor1 = {0,0,0,0,0,0,0};
+Motor_Position_TypeDef pos_motor2 = {0,0,0,0,0,0,0};
+Motor_Position_TypeDef pos_motor3 = {0,0,0,0,0,0,0};
+Motor_Position_TypeDef pos_motor4 = {0,0,0,0,0,0,0};
+
+int16_t ahead_back_data_tmp = 0;
+int16_t left_right_data_tmp = 0;
+int16_t turn_data_tmp = 0;
+
+static int16_t last_expected_speed = 0;
+
+int16_t tmp_tq = 0;
+
+void Position_PID_Control(Motor_Position_TypeDef * Motorx, int16_t current_position, int16_t expected_position)
+{
+   float p_term = 0;
+   float i_term = 0;
+   float d_term = 0;
+   Motorx->Kp = position_kp_tmp;
+   Motorx->Ki = position_ki_tmp;
+   Motorx->Kd = position_kd_tmp;
+
+   Motorx->cur_error = expected_position - current_position;
+   
+   p_term = Motorx->Kp * Motorx->cur_error;
+   i_term = Motorx->Ki * Motorx->cur_error + Motorx->last_iterm;
+   d_term = Motorx->Kd * (Motorx->cur_error - Motorx->last_error);
+   
+     if(i_term > SPEED_MAX) 
+		{
+			i_term = SPEED_MAX;
+		}
+		else if(i_term < -SPEED_MAX)
+		{
+			i_term = -SPEED_MAX;
+		}   
+        
+   Motorx->last_error = Motorx->cur_error;
+   Motorx->last_iterm = i_term;
+   
+   Motorx->output = p_term + i_term + d_term;
+        if(Motorx->output > SPEED_MAX)
+		{
+			Motorx->output = SPEED_MAX;
+		}
+		else if(Motorx->output < -SPEED_MAX)
+		{
+			Motorx->output = -SPEED_MAX;
+		}  
+}
+
+void Velocity_PID_Control(Velocity_PID_TypeDef * Motorx, int16_t current_speed, int16_t expected_speed)
+{ 
+	  Motorx->Kp = velocity_kp_tmp;
+	  Motorx->Ki = velocity_ki_tmp;
+	  Motorx->Kd = velocity_kd_tmp;
+		if(expected_speed > SPEED_MAX)
+		{
+			expected_speed = SPEED_MAX;
+		}
+		else if(expected_speed < -SPEED_MAX)
+		{
+			expected_speed = -SPEED_MAX;
+		}
+
+		Motorx->cur_error = expected_speed - current_speed;
+		
+		Motorx->p_term = Motorx->Kp * Motorx->cur_error;
+		Motorx->d_term = Motorx->Kd * (Motorx->cur_error - Motorx->last_error);
+	
+		Motorx->i_term = Motorx->Ki * Motorx->cur_error + Motorx->last_iterm;
+		
+		if(Motorx->i_term > CURRENT_MAX) 
+		{
+			Motorx->i_term = CURRENT_MAX;
+		}
+		else if(Motorx->i_term < -CURRENT_MAX)
+		{
+			Motorx->i_term = -CURRENT_MAX;
+		}
+		
+		Motorx->last_error = Motorx->cur_error;
+		Motorx->last_iterm = Motorx->i_term;	
+		
+		Motorx->output = Motorx->p_term + Motorx->i_term + Motorx->d_term;
+		
+		if(Motorx->output > CURRENT_MAX)
+		{
+			Motorx->output = CURRENT_MAX;
+		}
+		else if(Motorx->output < -CURRENT_MAX)
+		{
+			Motorx->output = -CURRENT_MAX;
+		}
+}
+   
+void Ctrl()
+{  
+	ahead_back_data_tmp = 0.1*radio_ahead_back_data;
+	left_right_data_tmp = 0.1*radio_left_right_data;
+	turn_data_tmp = 0.12*radio_turn_data;
+  	
+	 Velocity_PID_Control(&motor1, ecd_201.ecd_rate, -ahead_back_data_tmp + left_right_data_tmp + turn_data_tmp*1/2);    //1     
+	 Velocity_PID_Control(&motor2, ecd_202.ecd_rate, ahead_back_data_tmp + left_right_data_tmp + turn_data_tmp*1/2);    //2
+	 Velocity_PID_Control(&motor3, ecd_203.ecd_rate, ahead_back_data_tmp - left_right_data_tmp + turn_data_tmp*1/2);    //3
+	 Velocity_PID_Control(&motor4, ecd_204.ecd_rate, -ahead_back_data_tmp - left_right_data_tmp + turn_data_tmp*1/2);    //4
+
+		
+// 	  Cmd_ESC(motor1.output,motor2.output,motor3.output,motor4.output);
+//    Cmd_ESC(tmp_tq,tmp_tq,tmp_tq,tmp_tq);	    
+}
+#endif /* use this sector when this mcu controls the chassis with pmsm directly */
+
+
+static unsigned int lcd_update_cnt = 0;
+int speed_test = 0;
+int main(void)
+{     
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+    
+    Led_Configuration();             //LED灯初始化  
+    TIM2_5_Configuration();
+    CAN1_Configuration();            //CAN1<--> GearBox DC Motor Driver 
+    CAN2_Configuration();            //CAN2<--> 1) PMSM Motor Driver 2)Gimbal Processor
+    
+    //while(gyro_ok_flag == 0);
+    
+    USART2_Configuration();          //遥控器接收
+    USART3_Configuration();          //串口<-->PC
+    Get_Time_Micros();
+    while(1)
+    {   
+        delay_ms(5);			  
+#if CONTROL_WITH_24V 
+        Ctrl();			
+#endif
+		    if(lcd_update_cnt++ > 20)
+				{
+					 speed_test = ecd_201.ecd_rate * 1000/8192 * 60;
+					 lcd_update_cnt = 0;
+				}
+    }
+}
+

@@ -1,0 +1,164 @@
+#include "main.h"
+#include "imu.h"
+#include "protocal.h"   //帧格式定义
+#include "pid_control.h"
+static Version ver = VERSION_DEFAULT;
+
+//上传数据的状态机
+#define REIMU  0x01 //上传解算的姿态数据
+#define REMOV  0x02	//上传传感器的输出
+#define REHMC  0x03	//上传磁力计的标定值
+#define REOFFSET 0x04   //上传码盘标定值
+#define REVERSION 0x05   //上传软件版本号
+#define REERROR 0x06
+
+u8 state= REIMU;  //发送特定帧 的状态机
+static int16_t ax, ay, az;	
+static int16_t gx, gy, gz;
+static int16_t hx, hy, hz;
+
+
+#define Upload_Speed  10   //数据上传速度  单位 Hz
+#define upload_time (1000000/Upload_Speed)/2  //计算上传的时间。单位为us
+
+uint16_t  power1=0,power2=0;
+int ms = 0;
+uint32_t system_micrsecond;   //系统时间 单位us
+int n = 0;
+int main(void)
+{     
+		Config_Error_Code config_error_code; 
+		int16_t Math_hz=0;  //解算次数				
+		NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);   //2bit preem  2bit priorities	   
+	  //__disable_fault_irq();
+
+	 // OLED_Configuration();
+		PID_Init();
+    Led_Configuration();             //LED灯初始化  
+		Laser_Configuration();
+	  PWM_Configuration();
+		
+		config_error_code = load_config();
+		if(config_error_code != no_error)		//从flash中读取配置信息成功返回0xFF，错误返回errorcode
+		{
+			debug_info.cali_info.config_error = 1;			
+		}
+	  delay_ms(800);      //delay是因为主板上电会比gyro模块慢
+		TIM8_Configuration();   //技术定时器初始化，用于控制		
+		
+	  MPU6050_Initialize();    //初始化 陀螺仪偏差，磁力计偏差		
+	  TIM6_Configuration();		
+		Encoder_Configuration();		
+    CAN1_Configuration();            //CAN1<--> GearBox DC Motor Driver 
+    CAN2_Configuration();            //CAN2<--> 1) PMSM Motor Driver 2)Gimbal Processor	 
+	  USART1_Configuration();          //遥控器接收
+    USART3_Configuration();          //串口<-->PC		
+		Init_IMU();						//初始化IMU数据		
+	  TIM6_Start();   //定时器中断控制底盘
+		system_micrsecond = Get_Time_Micros();			
+		Encoder_Start();
+		MPU6050_IntConfiguration();     
+    MPU6050_EnableInt();   //pitch yaw control is beginning  
+		//__enable_fault_irq();
+    while(1)
+    {   
+				IMU_getYawPitchRoll(angle);
+				Math_hz++; //解算次数 ++
+			
+		//达到上传时间，上传数据
+			if((Get_Time_Micros() - system_micrsecond) > upload_time)
+			{
+				switch(state) 
+				{
+					case REIMU:				
+					{
+							//ecd_206_ecder						
+						IMU_Info_Send((int16_t)(angle[0]*10.0f),(int16_t)(angle[1]*10.0f),(int16_t)(angle[2]*10.0f),(int16_t)ecd_205_encoder_raw,(int16_t)ecd_206_encoder_raw);
+						Math_hz=0;
+						state = REVERSION; //更改状态
+					}	break;
+					case REVERSION:
+					{
+						Version_Send(ver);   //发送软件版本号
+						//Robot_Error_Code_Send(debug_info.error_code);	   
+						state = REERROR; //更改状态
+					}break;
+					case REERROR:
+					{
+						Robot_Error_Code_Send(debug_info.error_code);
+						state = REMOV;
+					}break;
+					case REMOV:
+					{
+						MPU6050_getlastMotion6(&ax, &ay, &az, &gx, &gy, &gz);   //发送的是原始数据
+						HMC58X3_getlastValues(&hx,&hy,&hz);											
+						Sensor_Info_Send(ax,ay,az,gx,gy,gz,hx,hy,hz);
+						state = REOFFSET;
+						if(HMC5883_calib)
+						{
+							state = REHMC; //如果正在进行磁标定，则发送当前磁力计标定值
+						}
+					}break;
+					case REHMC:
+					{
+						Mag_Cali_Info_Send(HMC5883_maxx,HMC5883_maxy,HMC5883_maxz,HMC5883_minx,HMC5883_miny,HMC5883_minz);
+						state = REIMU;
+					}break;					
+					case REOFFSET:         //发送校准数据
+					{
+						Offset_Info_Send(config_error_code, Config.dGx_offset, Config.dGy_offset, Config.dGz_offset, Config.dMx_scale, Config.dMy_offset, Config.dMz_offset, Config.yaw_encoder_offset, Config.pitch_encoder_offset);     						
+						state = REIMU;          //数据不会实时刷新???因为没有更新config
+					}break;
+					default:
+					{						
+					}break;
+				}
+											
+			//	Math_hz=0;
+				system_micrsecond = Get_Time_Micros();
+				
+			}
+
+		//--------------------------------------------------
+			//处理上位机发送来的校准命令
+			if(gyro_cali_start_flag == 1)
+			{
+				MPU6050_InitGyro_Offset_Start();       //关闭云台和底盘
+				Cali_Feedback_Info_Send(GYRO_CALI_START);    //返回校准确认信息
+				gyro_cali_start_flag = 0;
+			}
+			if(gyro_cali_end_flag == 1)
+			{
+				MPU6050_InitGyro_Offset_Save();						//采样数据并保存
+				Cali_Feedback_Info_Send(GYRO_CALI_END);    //返回校准确认信息
+				gyro_cali_end_flag = 0;
+			}
+			
+			else if(mag_cali_start_flag == 1) 	//开始磁力计校准
+			{
+				HMC5883L_Start_Calib();
+				Cali_Feedback_Info_Send(MAG_CALI_START);    //返回校准确认信息
+				mag_cali_start_flag = 0;
+			}
+			else if(mag_cali_end_flag == 1)			//结束磁力计校准
+			{
+				HMC5883L_Save_Calib();
+				Cali_Feedback_Info_Send(MAG_CALI_START);    //返回校准确认信息
+				mag_cali_end_flag = 0;
+			}
+			else if(econder_cali_start_falg == 1)
+			{
+				Init_Encoder_Offset_Start();
+				Cali_Feedback_Info_Send(ENCODER_CALI_START);    //返回校准确认信息
+				econder_cali_start_falg = 0;
+			}
+			else if(econder_cali_end_falg == 1)
+			{
+				Init_Encoder_Offset_Save();
+				Cali_Feedback_Info_Send(ENCODER_CALI_END);    //返回校准确认信息
+				econder_cali_end_falg = 0;
+			}		
+    }
+}
+
+

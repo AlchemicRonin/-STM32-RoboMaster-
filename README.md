@@ -40,3 +40,4 @@
 ## 4.0 代码收藏 Code Collection
 
 - **RM2019机甲大师赛官方赠与步兵代码开源 ( RM2019 Official Infantry Open Source Code )**
+- **RM2016步兵车主控程序开源代码 ( RM2016 Official Infantry Open Source Code )**
