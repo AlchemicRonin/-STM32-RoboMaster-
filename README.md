@@ -1,10 +1,10 @@
 # 从STM32开始的RoboMaster生活系列教程
 
-## 1.0 项目地址
+## 1.0 项目地址 Object Address
 
 - [Alchemic Ronin Blog](https://alchemicronin.github.io)
 
-## 2.0 教程列表
+## 2.0 教程列表 Tutorial List
 
 - [从STM32开始的RoboMaster生活：入门篇](https://alchemicronin.github.io/posts/e8b315d3.html)
 - [从STM32开始的RoboMaster生活：进阶篇 I [GPIO]](https://alchemicronin.github.io/posts/4b155d4.html)
@@ -27,7 +27,7 @@
   - **电机控制（单向转动模式）**
   - **电机控制（双向转动模式）**
 
-## 3.0 教科书
+## 3.0 教科书 Textbook
 
 - **Introduction to Computing Systems [Third Edition]**
 - **C Primer Plus**
@@ -37,6 +37,6 @@
 - **Datasheet**
 - **Reference Manual**
 
-## 4.0 代码收藏
+## 4.0 代码收藏 Code Collection
 
-- **RM2019机甲大师赛官方赠与步兵代码开源**
+- **RM2019机甲大师赛官方赠与步兵代码开源 ( RM2019 Official Infantry Open Source Code )**
