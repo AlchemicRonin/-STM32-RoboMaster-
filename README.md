@@ -37,7 +37,25 @@
 - **Datasheet**
 - **Reference Manual**
 
-## 4.0 代码收藏 Code Collection
+## 4.0 设备文档 RM Device Doc
+
+- **RoboMaster 6623直流无刷电机说明书**
+- **RoboMaster AI机器人 2019标准版 用户手册v1.0**
+- **RoboMaster C620无刷电机调速器使用说明（中英日）V1.01**
+- **RoboMaster M3508直流无刷减速电机使用说明V1.0（中英日）**
+- **RoboMaster M3508直流无刷减速电机保养手册**
+- **RoboMaster M3508直流无刷减速电机混控教程V1.0**
+- **RoboMaster M3508附件包使用说明V1.0（中英日）**
+- **RoboMaster Snail 2305 直流无刷电机说明书**
+- **RoboMaster 主控模块 MC02 2019 使用说明书**
+- **RoboMaster 开发板A型使用说明**
+- **RoboMaster 开发板B型使用说明**
+- **RoboMaster 开发板OLED使用说明**
+- **RoboMaster 开发版用户手册**
+- **RoboMaster 机器人专用遥控器（接收机）用户手册**
+- **RoboMaster 电池架(兼容型)说明书**
+
+## 5.0 代码收藏 Code Collection
 
 - **【西交利物浦】2019电控代码 ( 2019 XJTLU Infantry )**
 - **RM2016步兵车主控程序开源代码 ( RM2016 Official Infantry Open Source Code )**
