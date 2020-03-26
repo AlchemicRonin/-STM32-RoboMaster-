@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="RoboMaster06" targetName="RoboMaster06.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RoboMaster06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_RoboMaster06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoboMaster06.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoboMaster06.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZeOnyyL02C4bnsEBUKKssKD6Fu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager" selected="CMake Application.RoboMaster06.elf">
+    <configuration name="RoboMaster06.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RoboMaster06" TARGET_NAME="RoboMaster06.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RoboMaster06" RUN_TARGET_NAME="RoboMaster06.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.RoboMaster06.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD RoboMaster06" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="" />
+      <created>1585196263878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585196263878</updated>
+      <workItem from="1585196267655" duration="4197000" />
+      <workItem from="1585234092199" duration="4252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1320" height="199" key="GridCell.Tab.0.bottom" timestamp="1585238349798">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585238349798" />
+    <state width="1320" height="199" key="GridCell.Tab.0.center" timestamp="1585238349797">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585238349797" />
+    <state width="1320" height="199" key="GridCell.Tab.0.left" timestamp="1585238349796">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585238349796" />
+    <state width="1320" height="199" key="GridCell.Tab.0.right" timestamp="1585238349797">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585238349797" />
+    <state width="1320" height="199" key="GridCell.Tab.1.bottom" timestamp="1585238349798">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585238349798" />
+    <state width="1320" height="199" key="GridCell.Tab.1.center" timestamp="1585238349798">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1585238349798" />
+    <state width="1320" height="199" key="GridCell.Tab.1.left" timestamp="1585238349798">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1585238349798" />
+    <state width="1320" height="199" key="GridCell.Tab.1.right" timestamp="1585238349798">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="199" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1585238349798" />
+    <state x="187" y="19" width="992" height="742" key="SettingsEditor" timestamp="1585236936625">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="187" y="19" width="992" height="742" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585236936625" />
+  </component>
+</project>
