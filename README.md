@@ -39,6 +39,7 @@
 
 ## 4.0 硬件文档 RM Device Doc
 
+- **RoboMaster 开发板原理图&位号图**
 - **RoboMaster 6623直流无刷电机说明书**
 - **RoboMaster AI机器人 2019标准版 用户手册v1.0**
 - **RoboMaster C620无刷电机调速器使用说明（中英日）V1.01**
@@ -51,6 +52,7 @@
 - **RoboMaster 开发板A型使用说明**
 - **RoboMaster 开发板B型使用说明**
 - **RoboMaster 开发板OLED使用说明**
+- **RoboMaster 开发板线材包物品清单**
 - **RoboMaster 开发版用户手册**
 - **RoboMaster 机器人专用遥控器（接收机）用户手册**
 - **RoboMaster 电池架(兼容型)说明书**
@@ -58,5 +60,6 @@
 ## 5.0 代码收藏 Code Collection
 
 - **【西交利物浦】2019电控代码 ( 2019 XJTLU Infantry )**
+- **RoboMaster 官方样例代码 ( Development Board Examples )**
 - **RM2016步兵车主控程序开源代码 ( RM2016 Official Infantry Open Source Code )**
 - **RM2019机甲大师赛官方赠与步兵代码开源 ( RM2019 Official Infantry Open Source Code )**
