@@ -40,7 +40,7 @@ typedef struct{
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define CAN1_DEVICE_NUM     12
+#define CAN1_DEVICE_NUM     4
 #define FIRST_GROUP_ID      0x200
 #define MOTOR_SPEED_MAX     16384
 #define CAN_DATA_SIZE       8
