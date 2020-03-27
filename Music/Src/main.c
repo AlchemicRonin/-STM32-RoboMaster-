@@ -77,7 +77,7 @@ float littleStar_durt[] = {
 		1
 };
 
-buzzer_freq_t mechanicus_freq[] = {
+buzzer_freq_t War_Cant_of_Mars_Warhammer_40k_freq[] = {
 		So5M, So5M, So5M, So5M, Fa4M, Mi3M, So5M, Do1H, Re2H,
 		Mi3H, Mi3H, Mi3H, Re2H, Do1H, Do1H, Si7M,
 		La6M, La6M, La6M, Si7M, Do1H, Si7M, Do1H, La6M,
@@ -91,7 +91,7 @@ buzzer_freq_t mechanicus_freq[] = {
 		Finish
 };
 
-float mechanicus_durt[] = {
+float War_Cant_of_Mars_Warhammer_40k_durt[] = {
 		0.5, 0.25, 0.25, 0.5, 0.25, 0.5, 0.25, 0.5, 0.25,
 		0.5, 0.25, 0.5, 0.25, 1, 0.5, 0.25,
 		0.5, 0.25, 0.5, 0.25, 0.5, 0.25, 0.5, 0.25,
@@ -174,7 +174,7 @@ int main(void)
   while (1)
   {
   	//buzzer_sing_song(littleStar_freq, littleStar_durt);
-  	buzzer_sing_song(mechanicus_freq, mechanicus_durt);
+  	buzzer_sing_song(War_Cant_of_Mars_Warhammer_40k_freq, War_Cant_of_Mars_Warhammer_40k_durt);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -296,10 +296,9 @@ void buzzer_sing_tone(buzzer_freq_t freq){
 }
 
 void buzzer_sing_song(buzzer_freq_t *freq, float *durt){
-	int i = 0;
-	while (freq[i] != Finish) {
+	for(int i = 0; freq[i] != Finish; i++){
 		buzzer_sing_tone(freq[i]);
-		HAL_Delay(600 * durt[i++]);
+		HAL_Delay(600 * durt[i]);
 	}
 	buzzer_sing_tone(Silent);
 }

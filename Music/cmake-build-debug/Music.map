@@ -991,7 +991,7 @@ LOAD /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc
                 0x0000000008000000                g_pfnVectors
                 0x00000000080001ac                . = ALIGN (0x4)
 
-.text           0x00000000080001b0     0x2ab4
+.text           0x00000000080001b0     0x2ab8
                 0x00000000080001b0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080001b0       0x40 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
@@ -1137,218 +1137,218 @@ LOAD /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc
                 0x0000000008002918       0xa4 CMakeFiles/Music.elf.dir/Src/main.c.obj
                 0x0000000008002918                buzzer_sing_tone
  .text.buzzer_sing_song
-                0x00000000080029bc       0x6c CMakeFiles/Music.elf.dir/Src/main.c.obj
+                0x00000000080029bc       0x70 CMakeFiles/Music.elf.dir/Src/main.c.obj
                 0x00000000080029bc                buzzer_sing_song
  .text.Error_Handler
-                0x0000000008002a28        0xc CMakeFiles/Music.elf.dir/Src/main.c.obj
-                0x0000000008002a28                Error_Handler
+                0x0000000008002a2c        0xc CMakeFiles/Music.elf.dir/Src/main.c.obj
+                0x0000000008002a2c                Error_Handler
  .text.HAL_MspInit
-                0x0000000008002a34       0x4c CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008002a34                HAL_MspInit
+                0x0000000008002a38       0x4c CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008002a38                HAL_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x0000000008002a80       0x40 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008002a80                HAL_TIM_Base_MspInit
+                0x0000000008002a84       0x40 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008002a84                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x0000000008002ac0       0x74 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008002ac0                HAL_TIM_MspPostInit
+                0x0000000008002ac4       0x74 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008002ac4                HAL_TIM_MspPostInit
  .text.NMI_Handler
-                0x0000000008002b34        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b34                NMI_Handler
+                0x0000000008002b38        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b38                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008002b40        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b40                HardFault_Handler
+                0x0000000008002b44        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b44                HardFault_Handler
  .text.MemManage_Handler
-                0x0000000008002b46        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b46                MemManage_Handler
+                0x0000000008002b4a        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b4a                MemManage_Handler
  .text.BusFault_Handler
-                0x0000000008002b4c        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b4c                BusFault_Handler
+                0x0000000008002b50        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b50                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000000008002b52        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b52                UsageFault_Handler
+                0x0000000008002b56        0x6 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b56                UsageFault_Handler
  .text.SVC_Handler
-                0x0000000008002b58        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b58                SVC_Handler
+                0x0000000008002b5c        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b5c                SVC_Handler
  .text.DebugMon_Handler
-                0x0000000008002b64        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b64                DebugMon_Handler
+                0x0000000008002b68        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b68                DebugMon_Handler
  .text.PendSV_Handler
-                0x0000000008002b70        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b70                PendSV_Handler
+                0x0000000008002b74        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b74                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008002b7c        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008002b7c                SysTick_Handler
+                0x0000000008002b80        0xc CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008002b80                SysTick_Handler
  .text.SystemInit
-                0x0000000008002b88       0x18 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
-                0x0000000008002b88                SystemInit
+                0x0000000008002b8c       0x18 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
+                0x0000000008002b8c                SystemInit
  .text.Reset_Handler
-                0x0000000008002ba0       0x50 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
-                0x0000000008002ba0                Reset_Handler
+                0x0000000008002ba4       0x50 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
+                0x0000000008002ba4                Reset_Handler
  .text.Default_Handler
-                0x0000000008002bf0        0x2 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
-                0x0000000008002bf0                RTC_Alarm_IRQHandler
-                0x0000000008002bf0                HASH_RNG_IRQHandler
-                0x0000000008002bf0                EXTI2_IRQHandler
-                0x0000000008002bf0                TIM8_CC_IRQHandler
-                0x0000000008002bf0                UART8_IRQHandler
-                0x0000000008002bf0                SPI4_IRQHandler
-                0x0000000008002bf0                TIM1_CC_IRQHandler
-                0x0000000008002bf0                DMA2_Stream5_IRQHandler
-                0x0000000008002bf0                DMA1_Stream5_IRQHandler
-                0x0000000008002bf0                PVD_IRQHandler
-                0x0000000008002bf0                SDIO_IRQHandler
-                0x0000000008002bf0                TAMP_STAMP_IRQHandler
-                0x0000000008002bf0                CAN2_RX1_IRQHandler
-                0x0000000008002bf0                EXTI3_IRQHandler
-                0x0000000008002bf0                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008002bf0                TIM1_UP_TIM10_IRQHandler
-                0x0000000008002bf0                TIM8_UP_TIM13_IRQHandler
-                0x0000000008002bf0                I2C3_ER_IRQHandler
-                0x0000000008002bf0                EXTI0_IRQHandler
-                0x0000000008002bf0                I2C2_EV_IRQHandler
-                0x0000000008002bf0                DMA1_Stream2_IRQHandler
-                0x0000000008002bf0                CAN1_RX0_IRQHandler
-                0x0000000008002bf0                FPU_IRQHandler
-                0x0000000008002bf0                OTG_HS_WKUP_IRQHandler
-                0x0000000008002bf0                CAN2_SCE_IRQHandler
-                0x0000000008002bf0                DMA2_Stream2_IRQHandler
-                0x0000000008002bf0                SPI1_IRQHandler
-                0x0000000008002bf0                TIM6_DAC_IRQHandler
-                0x0000000008002bf0                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008002bf0                DCMI_IRQHandler
-                0x0000000008002bf0                CAN2_RX0_IRQHandler
-                0x0000000008002bf0                DMA2_Stream3_IRQHandler
-                0x0000000008002bf0                USART6_IRQHandler
-                0x0000000008002bf0                USART3_IRQHandler
-                0x0000000008002bf0                CAN1_RX1_IRQHandler
-                0x0000000008002bf0                UART5_IRQHandler
-                0x0000000008002bf0                DMA2_Stream0_IRQHandler
-                0x0000000008002bf0                TIM4_IRQHandler
-                0x0000000008002bf0                I2C1_EV_IRQHandler
-                0x0000000008002bf0                DMA1_Stream6_IRQHandler
-                0x0000000008002bf0                DMA1_Stream1_IRQHandler
-                0x0000000008002bf0                UART4_IRQHandler
-                0x0000000008002bf0                TIM3_IRQHandler
-                0x0000000008002bf0                RCC_IRQHandler
-                0x0000000008002bf0                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008002bf0                Default_Handler
-                0x0000000008002bf0                EXTI15_10_IRQHandler
-                0x0000000008002bf0                ADC_IRQHandler
-                0x0000000008002bf0                DMA1_Stream7_IRQHandler
-                0x0000000008002bf0                SPI5_IRQHandler
-                0x0000000008002bf0                TIM7_IRQHandler
-                0x0000000008002bf0                CAN2_TX_IRQHandler
-                0x0000000008002bf0                TIM5_IRQHandler
-                0x0000000008002bf0                DMA2_Stream7_IRQHandler
-                0x0000000008002bf0                I2C3_EV_IRQHandler
-                0x0000000008002bf0                EXTI9_5_IRQHandler
-                0x0000000008002bf0                RTC_WKUP_IRQHandler
-                0x0000000008002bf0                ETH_WKUP_IRQHandler
-                0x0000000008002bf0                SPI2_IRQHandler
-                0x0000000008002bf0                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008002bf0                DMA1_Stream0_IRQHandler
-                0x0000000008002bf0                CAN1_TX_IRQHandler
-                0x0000000008002bf0                EXTI4_IRQHandler
-                0x0000000008002bf0                ETH_IRQHandler
-                0x0000000008002bf0                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008002bf0                WWDG_IRQHandler
-                0x0000000008002bf0                SPI6_IRQHandler
-                0x0000000008002bf0                TIM2_IRQHandler
-                0x0000000008002bf0                OTG_FS_WKUP_IRQHandler
-                0x0000000008002bf0                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008002bf0                OTG_HS_IRQHandler
-                0x0000000008002bf0                DMA2D_IRQHandler
-                0x0000000008002bf0                EXTI1_IRQHandler
-                0x0000000008002bf0                UART7_IRQHandler
-                0x0000000008002bf0                USART2_IRQHandler
-                0x0000000008002bf0                I2C2_ER_IRQHandler
-                0x0000000008002bf0                DMA2_Stream1_IRQHandler
-                0x0000000008002bf0                CAN1_SCE_IRQHandler
-                0x0000000008002bf0                FLASH_IRQHandler
-                0x0000000008002bf0                DMA2_Stream4_IRQHandler
-                0x0000000008002bf0                USART1_IRQHandler
-                0x0000000008002bf0                OTG_FS_IRQHandler
-                0x0000000008002bf0                SPI3_IRQHandler
-                0x0000000008002bf0                DMA1_Stream4_IRQHandler
-                0x0000000008002bf0                I2C1_ER_IRQHandler
-                0x0000000008002bf0                FMC_IRQHandler
-                0x0000000008002bf0                DMA2_Stream6_IRQHandler
-                0x0000000008002bf0                SAI1_IRQHandler
-                0x0000000008002bf0                DMA1_Stream3_IRQHandler
- *fill*         0x0000000008002bf2        0x2 
+                0x0000000008002bf4        0x2 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
+                0x0000000008002bf4                RTC_Alarm_IRQHandler
+                0x0000000008002bf4                HASH_RNG_IRQHandler
+                0x0000000008002bf4                EXTI2_IRQHandler
+                0x0000000008002bf4                TIM8_CC_IRQHandler
+                0x0000000008002bf4                UART8_IRQHandler
+                0x0000000008002bf4                SPI4_IRQHandler
+                0x0000000008002bf4                TIM1_CC_IRQHandler
+                0x0000000008002bf4                DMA2_Stream5_IRQHandler
+                0x0000000008002bf4                DMA1_Stream5_IRQHandler
+                0x0000000008002bf4                PVD_IRQHandler
+                0x0000000008002bf4                SDIO_IRQHandler
+                0x0000000008002bf4                TAMP_STAMP_IRQHandler
+                0x0000000008002bf4                CAN2_RX1_IRQHandler
+                0x0000000008002bf4                EXTI3_IRQHandler
+                0x0000000008002bf4                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008002bf4                TIM1_UP_TIM10_IRQHandler
+                0x0000000008002bf4                TIM8_UP_TIM13_IRQHandler
+                0x0000000008002bf4                I2C3_ER_IRQHandler
+                0x0000000008002bf4                EXTI0_IRQHandler
+                0x0000000008002bf4                I2C2_EV_IRQHandler
+                0x0000000008002bf4                DMA1_Stream2_IRQHandler
+                0x0000000008002bf4                CAN1_RX0_IRQHandler
+                0x0000000008002bf4                FPU_IRQHandler
+                0x0000000008002bf4                OTG_HS_WKUP_IRQHandler
+                0x0000000008002bf4                CAN2_SCE_IRQHandler
+                0x0000000008002bf4                DMA2_Stream2_IRQHandler
+                0x0000000008002bf4                SPI1_IRQHandler
+                0x0000000008002bf4                TIM6_DAC_IRQHandler
+                0x0000000008002bf4                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008002bf4                DCMI_IRQHandler
+                0x0000000008002bf4                CAN2_RX0_IRQHandler
+                0x0000000008002bf4                DMA2_Stream3_IRQHandler
+                0x0000000008002bf4                USART6_IRQHandler
+                0x0000000008002bf4                USART3_IRQHandler
+                0x0000000008002bf4                CAN1_RX1_IRQHandler
+                0x0000000008002bf4                UART5_IRQHandler
+                0x0000000008002bf4                DMA2_Stream0_IRQHandler
+                0x0000000008002bf4                TIM4_IRQHandler
+                0x0000000008002bf4                I2C1_EV_IRQHandler
+                0x0000000008002bf4                DMA1_Stream6_IRQHandler
+                0x0000000008002bf4                DMA1_Stream1_IRQHandler
+                0x0000000008002bf4                UART4_IRQHandler
+                0x0000000008002bf4                TIM3_IRQHandler
+                0x0000000008002bf4                RCC_IRQHandler
+                0x0000000008002bf4                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008002bf4                Default_Handler
+                0x0000000008002bf4                EXTI15_10_IRQHandler
+                0x0000000008002bf4                ADC_IRQHandler
+                0x0000000008002bf4                DMA1_Stream7_IRQHandler
+                0x0000000008002bf4                SPI5_IRQHandler
+                0x0000000008002bf4                TIM7_IRQHandler
+                0x0000000008002bf4                CAN2_TX_IRQHandler
+                0x0000000008002bf4                TIM5_IRQHandler
+                0x0000000008002bf4                DMA2_Stream7_IRQHandler
+                0x0000000008002bf4                I2C3_EV_IRQHandler
+                0x0000000008002bf4                EXTI9_5_IRQHandler
+                0x0000000008002bf4                RTC_WKUP_IRQHandler
+                0x0000000008002bf4                ETH_WKUP_IRQHandler
+                0x0000000008002bf4                SPI2_IRQHandler
+                0x0000000008002bf4                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008002bf4                DMA1_Stream0_IRQHandler
+                0x0000000008002bf4                CAN1_TX_IRQHandler
+                0x0000000008002bf4                EXTI4_IRQHandler
+                0x0000000008002bf4                ETH_IRQHandler
+                0x0000000008002bf4                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008002bf4                WWDG_IRQHandler
+                0x0000000008002bf4                SPI6_IRQHandler
+                0x0000000008002bf4                TIM2_IRQHandler
+                0x0000000008002bf4                OTG_FS_WKUP_IRQHandler
+                0x0000000008002bf4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008002bf4                OTG_HS_IRQHandler
+                0x0000000008002bf4                DMA2D_IRQHandler
+                0x0000000008002bf4                EXTI1_IRQHandler
+                0x0000000008002bf4                UART7_IRQHandler
+                0x0000000008002bf4                USART2_IRQHandler
+                0x0000000008002bf4                I2C2_ER_IRQHandler
+                0x0000000008002bf4                DMA2_Stream1_IRQHandler
+                0x0000000008002bf4                CAN1_SCE_IRQHandler
+                0x0000000008002bf4                FLASH_IRQHandler
+                0x0000000008002bf4                DMA2_Stream4_IRQHandler
+                0x0000000008002bf4                USART1_IRQHandler
+                0x0000000008002bf4                OTG_FS_IRQHandler
+                0x0000000008002bf4                SPI3_IRQHandler
+                0x0000000008002bf4                DMA1_Stream4_IRQHandler
+                0x0000000008002bf4                I2C1_ER_IRQHandler
+                0x0000000008002bf4                FMC_IRQHandler
+                0x0000000008002bf4                DMA2_Stream6_IRQHandler
+                0x0000000008002bf4                SAI1_IRQHandler
+                0x0000000008002bf4                DMA1_Stream3_IRQHandler
+ *fill*         0x0000000008002bf6        0x2 
  .text.__libc_init_array
-                0x0000000008002bf4       0x48 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
-                0x0000000008002bf4                __libc_init_array
- .text.memset   0x0000000008002c3c       0x10 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x0000000008002c3c                memset
+                0x0000000008002bf8       0x48 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-init.o)
+                0x0000000008002bf8                __libc_init_array
+ .text.memset   0x0000000008002c40       0x10 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x0000000008002c40                memset
  *(.glue_7)
- .glue_7        0x0000000008002c4c        0x0 linker stubs
+ .glue_7        0x0000000008002c50        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008002c4c        0x0 linker stubs
+ .glue_7t       0x0000000008002c50        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008002c4c        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008002c50        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x0000000008002c4c        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
-                0x0000000008002c4c                _init
- .init          0x0000000008002c50        0x8 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0000000008002c50        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008002c50                _init
+ .init          0x0000000008002c54        0x8 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008002c58        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
-                0x0000000008002c58                _fini
- .fini          0x0000000008002c5c        0x8 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
-                0x0000000008002c64                . = ALIGN (0x4)
-                0x0000000008002c64                _etext = .
+ .fini          0x0000000008002c5c        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008002c5c                _fini
+ .fini          0x0000000008002c60        0x8 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
+                0x0000000008002c68                . = ALIGN (0x4)
+                0x0000000008002c68                _etext = .
 
-.vfp11_veneer   0x0000000008002c64        0x0
- .vfp11_veneer  0x0000000008002c64        0x0 linker stubs
+.vfp11_veneer   0x0000000008002c68        0x0
+ .vfp11_veneer  0x0000000008002c68        0x0 linker stubs
 
-.v4_bx          0x0000000008002c64        0x0
- .v4_bx         0x0000000008002c64        0x0 linker stubs
+.v4_bx          0x0000000008002c68        0x0
+ .v4_bx         0x0000000008002c68        0x0 linker stubs
 
-.iplt           0x0000000008002c64        0x0
- .iplt          0x0000000008002c64        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x0000000008002c68        0x0
+ .iplt          0x0000000008002c68        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x0000000008002c64       0x10
-                0x0000000008002c64                . = ALIGN (0x4)
+.rodata         0x0000000008002c68       0x10
+                0x0000000008002c68                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x0000000008002c64       0x10 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
-                0x0000000008002c64                AHBPrescTable
-                0x0000000008002c74                . = ALIGN (0x4)
+                0x0000000008002c68       0x10 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
+                0x0000000008002c68                AHBPrescTable
+                0x0000000008002c78                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008002c74        0x8
-                0x0000000008002c74                __exidx_start = .
+.ARM            0x0000000008002c78        0x8
+                0x0000000008002c78                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0000000008002c74        0x8 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
-                0x0000000008002c7c                __exidx_end = .
+ .ARM.exidx     0x0000000008002c78        0x8 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0000000008002c80                __exidx_end = .
 
-.rel.dyn        0x0000000008002c7c        0x0
- .rel.iplt      0x0000000008002c7c        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008002c80        0x0
+ .rel.iplt      0x0000000008002c80        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x0000000008002c7c        0x0
-                0x0000000008002c7c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008002c80        0x0
+                0x0000000008002c80                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008002c7c                PROVIDE (__preinit_array_end = .)
+                0x0000000008002c80                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008002c7c        0x4
-                0x0000000008002c7c                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008002c80        0x4
+                0x0000000008002c80                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008002c7c        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0000000008002c80                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008002c80        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0000000008002c84                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008002c80        0x4
+.fini_array     0x0000000008002c84        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008002c80        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
+ .fini_array    0x0000000008002c84        0x4 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008002c84                _sidata = LOADADDR (.data)
+                0x0000000008002c88                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x218 load address 0x0000000008002c84
+.data           0x0000000020000000      0x218 load address 0x0000000008002c88
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1360,24 +1360,24 @@ LOAD /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc
                 0x0000000020000004        0x1 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                 0x0000000020000004                uwTickFreq
  *fill*         0x0000000020000005        0x3 
- .data.mechanicus_freq
+ .data.War_Cant_of_Mars_Warhammer_40k_freq
                 0x0000000020000008       0xae CMakeFiles/Music.elf.dir/Src/main.c.obj
-                0x0000000020000008                mechanicus_freq
+                0x0000000020000008                War_Cant_of_Mars_Warhammer_40k_freq
  *fill*         0x00000000200000b6        0x2 
- .data.mechanicus_durt
+ .data.War_Cant_of_Mars_Warhammer_40k_durt
                 0x00000000200000b8      0x15c CMakeFiles/Music.elf.dir/Src/main.c.obj
-                0x00000000200000b8                mechanicus_durt
+                0x00000000200000b8                War_Cant_of_Mars_Warhammer_40k_durt
  .data.SystemCoreClock
                 0x0000000020000214        0x4 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
                 0x0000000020000214                SystemCoreClock
                 0x0000000020000218                . = ALIGN (0x4)
                 0x0000000020000218                _edata = .
-                0x0000000008002e9c                _siccmram = LOADADDR (.ccmram)
+                0x0000000008002ea0                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x0000000020000218        0x0 load address 0x0000000008002e9c
+.igot.plt       0x0000000020000218        0x0 load address 0x0000000008002ea0
  .igot.plt      0x0000000020000218        0x0 /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x0000000008002e9c
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008002ea0
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -1468,17 +1468,17 @@ LOAD /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc
                 0x0000000000000367       0x1e /home/alchemic_ronin/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(Music.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0x71bb
+.debug_info     0x0000000000000000     0x71c5
  .debug_info    0x0000000000000000      0xa13 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_info    0x0000000000000a13      0xef6 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_info    0x0000000000001909      0x83f CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_info    0x0000000000002148      0x9a7 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_info    0x0000000000002aef     0x26c2 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x00000000000051b1      0xd8a CMakeFiles/Music.elf.dir/Src/main.c.obj
- .debug_info    0x0000000000005f3b      0xa92 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x00000000000069cd      0x217 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_info    0x0000000000006be4      0x5b5 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_info    0x0000000000007199       0x22 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
+ .debug_info    0x00000000000051b1      0xd94 CMakeFiles/Music.elf.dir/Src/main.c.obj
+ .debug_info    0x0000000000005f45      0xa92 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x00000000000069d7      0x217 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_info    0x0000000000006bee      0x5b5 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_info    0x00000000000071a3       0x22 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
 
 .debug_abbrev   0x0000000000000000     0x1248
  .debug_abbrev  0x0000000000000000      0x1ea CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
@@ -1526,19 +1526,19 @@ OUTPUT(Music.elf elf32-littlearm)
  .debug_ranges  0x0000000000000708       0x18 CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
  .debug_ranges  0x0000000000000720       0x20 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_line     0x0000000000000000     0x5451
+.debug_line     0x0000000000000000     0x546f
  .debug_line    0x0000000000000000      0x5ff CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_line    0x00000000000005ff      0x88a CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_line    0x0000000000000e89      0x791 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_line    0x000000000000161a      0x975 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_line    0x0000000000001f8f     0x25d4 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x0000000000004563      0x449 CMakeFiles/Music.elf.dir/Src/main.c.obj
- .debug_line    0x00000000000049ac      0x371 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x0000000000004d1d      0x346 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000005063      0x33b CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
- .debug_line    0x000000000000539e       0xb3 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
+ .debug_line    0x0000000000004563      0x467 CMakeFiles/Music.elf.dir/Src/main.c.obj
+ .debug_line    0x00000000000049ca      0x371 CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x0000000000004d3b      0x346 CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_line    0x0000000000005081      0x33b CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00000000000053bc       0xb3 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
 
-.debug_str      0x0000000000000000     0x2c30
+.debug_str      0x0000000000000000     0x2c58
  .debug_str     0x0000000000000000      0xc02 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                                         0xc6b (size before relaxing)
  .debug_str     0x0000000000000c02      0x527 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -1549,15 +1549,15 @@ OUTPUT(Music.elf elf32-littlearm)
                                         0x7e4 (size before relaxing)
  .debug_str     0x0000000000001665     0x1222 CMakeFiles/Music.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
                                        0x15a4 (size before relaxing)
- .debug_str     0x0000000000002887      0x182 CMakeFiles/Music.elf.dir/Src/main.c.obj
-                                        0xb5e (size before relaxing)
- .debug_str     0x0000000000002a09       0x6e CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_str     0x0000000000002887      0x1aa CMakeFiles/Music.elf.dir/Src/main.c.obj
+                                        0xb86 (size before relaxing)
+ .debug_str     0x0000000000002a31       0x6e CMakeFiles/Music.elf.dir/Src/stm32f4xx_hal_msp.c.obj
                                         0x8ff (size before relaxing)
- .debug_str     0x0000000000002a77       0xdb CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
+ .debug_str     0x0000000000002a9f       0xdb CMakeFiles/Music.elf.dir/Src/stm32f4xx_it.c.obj
                                         0x37e (size before relaxing)
- .debug_str     0x0000000000002b52       0x7a CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
+ .debug_str     0x0000000000002b7a       0x7a CMakeFiles/Music.elf.dir/Src/system_stm32f4xx.c.obj
                                         0x491 (size before relaxing)
- .debug_str     0x0000000000002bcc       0x64 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
+ .debug_str     0x0000000000002bf4       0x64 CMakeFiles/Music.elf.dir/startup/startup_stm32f427xx.s.obj
                                          0xae (size before relaxing)
 
 .comment        0x0000000000000000       0x79
