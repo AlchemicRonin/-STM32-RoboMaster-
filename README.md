@@ -26,6 +26,8 @@
   - **舵机控制**
   - **电机控制（单向转动模式）**
   - **电机控制（双向转动模式）**
+- **[从STM32开始的RoboMaster生活：进阶篇 VII [CAN]](https://alchemicronin.github.io/posts/59eedfd8.html)**
+  - **CAN电机控制**
 
 ## 3.0 教科书 Textbook
 
