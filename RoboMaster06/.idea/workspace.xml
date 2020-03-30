@@ -14,15 +14,6 @@
     <list default="true" id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster06.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster06.elf.dir/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +87,8 @@
       <workItem from="1585530164926" duration="69000" />
       <workItem from="1585534709180" duration="111000" />
       <workItem from="1585536898144" duration="105000" />
+      <workItem from="1585537219603" duration="1601000" />
+      <workItem from="1585541148678" duration="29000" />
     </task>
     <servers />
   </component>

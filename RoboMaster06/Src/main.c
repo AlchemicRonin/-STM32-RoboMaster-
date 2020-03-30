@@ -35,7 +35,7 @@ typedef struct{
 	int16_t     current_get;
 	int16_t     speed_rpm;
 	uint8_t     temperature;
-}   motor_3508_t;
+}motor_3508_t;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
