@@ -70,7 +70,8 @@ static void MX_GPIO_Init(void);
 static void MX_CAN1_Init(void);
 static void MX_UART7_Init(void);
 /* USER CODE BEGIN PFP */
-void can_filter_config(CAN_HandleTypeDef* hcan);
+void can_filter_enable(CAN_HandleTypeDef* hcan);
+void can_filter_disable(CAN_HandleTypeDef* hcan);
 void can_transmit(CAN_HandleTypeDef* hcan, uint16_t id, int16_t msg1, int16_t msg2, int16_t msg3, int16_t msg4);
 /* USER CODE END PFP */
 
@@ -110,7 +111,7 @@ int main(void)
   MX_CAN1_Init();
   MX_UART7_Init();
   /* USER CODE BEGIN 2 */
-  can_filter_config(&hcan1);
+  can_filter_disable(&hcan1);
   HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
   HAL_CAN_Start(&hcan1);
   /* USER CODE END 2 */
@@ -276,7 +277,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void can_filter_config(CAN_HandleTypeDef* hcan){
+void can_filter_enable(CAN_HandleTypeDef* hcan){
 	CAN_FilterTypeDef CAN_FilterConfigStructure;
 
 	CAN_FilterConfigStructure.FilterIdHigh = 0x0000;
@@ -287,6 +288,24 @@ void can_filter_config(CAN_HandleTypeDef* hcan){
 	CAN_FilterConfigStructure.FilterMode = CAN_FILTERMODE_IDMASK;
 	CAN_FilterConfigStructure.FilterScale = CAN_FILTERSCALE_32BIT;
 	CAN_FilterConfigStructure.FilterActivation = ENABLE;
+	CAN_FilterConfigStructure.SlaveStartFilterBank = 27;
+
+	CAN_FilterConfigStructure.FilterBank = 0;
+
+	HAL_CAN_ConfigFilter(hcan, &CAN_FilterConfigStructure);
+}
+
+void can_filter_disable(CAN_HandleTypeDef* hcan){
+	CAN_FilterTypeDef CAN_FilterConfigStructure;
+
+	CAN_FilterConfigStructure.FilterIdHigh = 0x0000;
+	CAN_FilterConfigStructure.FilterIdLow = 0x0000;
+	CAN_FilterConfigStructure.FilterMaskIdHigh = 0x0000;
+	CAN_FilterConfigStructure.FilterMaskIdLow = 0x0000;
+	CAN_FilterConfigStructure.FilterFIFOAssignment = CAN_FILTER_FIFO0;
+	CAN_FilterConfigStructure.FilterMode = CAN_FILTERMODE_IDMASK;
+	CAN_FilterConfigStructure.FilterScale = CAN_FILTERSCALE_32BIT;
+	CAN_FilterConfigStructure.FilterActivation = DISABLE;
 	CAN_FilterConfigStructure.SlaveStartFilterBank = 27;
 
 	CAN_FilterConfigStructure.FilterBank = 0;
@@ -349,12 +368,14 @@ void print_motor_data(motor_3508_t *motor, char *msg){
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if(GPIO_Pin == Button_Pin){
+		can_filter_enable(&hcan1);
 		uint8_t motorStatus[CAN_DATA_SIZE];
 		char motorMsg[250];
 		can1_read(MOTOR_ID,motorStatus);
 		get_motor_data(&motorPrintTest, motorStatus);
 		print_motor_data(&motorPrintTest, motorMsg);
 		HAL_UART_Transmit(&huart7, (uint8_t*)motorMsg, strlen(motorMsg), HAL_MAX_DELAY);
+		can_filter_disable(&hcan1);
 	}
 }
 /* USER CODE END 4 */

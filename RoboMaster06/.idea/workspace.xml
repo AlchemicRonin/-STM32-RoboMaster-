@@ -11,7 +11,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="" />
+    <list default="true" id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster06.elf.dir/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RoboMaster06.elf.dir/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +57,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://linux.ews.illinois.edu" />
+      <recent name="http://linux.ews.illinois.edu" />
+    </key>
   </component>
   <component name="RunManager" selected="CMake Application.RoboMaster06.elf">
     <configuration name="RoboMaster06.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RoboMaster06" TARGET_NAME="RoboMaster06.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RoboMaster06" RUN_TARGET_NAME="RoboMaster06.elf">
@@ -72,6 +90,12 @@
       <workItem from="1585234092199" duration="4252000" />
       <workItem from="1585239255639" duration="162000" />
       <workItem from="1585241824878" duration="323000" />
+      <workItem from="1585284043395" duration="545000" />
+      <workItem from="1585499721950" duration="164000" />
+      <workItem from="1585499906936" duration="6000" />
+      <workItem from="1585530164926" duration="69000" />
+      <workItem from="1585534709180" duration="111000" />
+      <workItem from="1585536898144" duration="105000" />
     </task>
     <servers />
   </component>
@@ -82,6 +106,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="282" y="39" key="#HTTP_Proxy" timestamp="1585499798567">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="282" y="39" key="#HTTP_Proxy/0.0.1366.768@0.0.1366.768" timestamp="1585499798567" />
     <state width="1320" height="199" key="GridCell.Tab.0.bottom" timestamp="1585238349798">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -114,9 +142,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1320" height="199" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1585238349798" />
-    <state x="187" y="19" width="992" height="742" key="SettingsEditor" timestamp="1585236936625">
+    <state x="187" y="19" width="992" height="742" key="SettingsEditor" timestamp="1585499868203">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="187" y="19" width="992" height="742" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585236936625" />
+    <state x="187" y="19" width="992" height="742" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585499868203" />
   </component>
 </project>
