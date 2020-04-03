@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RoboMaster06.elf" afterDir="false" />
-    </list>
+    <list default="true" id="17e6500c-6382-4906-b73f-e426d2f6ff7e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +88,7 @@
       <workItem from="1585541148678" duration="29000" />
       <workItem from="1585541447166" duration="10000" />
       <workItem from="1585696717005" duration="288000" />
+      <workItem from="1585697078900" duration="5000" />
     </task>
     <servers />
   </component>
