@@ -46,6 +46,7 @@
 - **RoboMaster 开发板原理图&位号图**
 - **RoboMaster 6623直流无刷电机说明书**
 - **RoboMaster AI机器人 2019标准版 用户手册v1.0**
+- **RoboMaster C615 无刷电机调速器说明书**
 - **RoboMaster C620无刷电机调速器使用说明（中英日）V1.01**
 - **RoboMaster M3508直流无刷减速电机使用说明V1.0（中英日）**
 - **RoboMaster M3508直流无刷减速电机保养手册**
