@@ -31,13 +31,15 @@
 
 ## 3.0 教科书 Textbook
 
-- **Introduction to Computing Systems [Third Edition]**
 - **C Primer Plus**
+- **C++ Primer Plus**
+- **C++ Primer**
+- **Datasheet**
+- **Introduction to Computing Systems [Third Edition]**
 - **Mastering STM32**
+- **Reference Manual**
 - **STM32 HAL 库开发实战指南—基于F429_挑战者V2**
 - **STM32F429开发指南-HAL库版本_V1.1**
-- **Datasheet**
-- **Reference Manual**
 
 ## 4.0 硬件文档 RM Device Doc
 
