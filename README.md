@@ -35,6 +35,7 @@
 - **C++ Primer Plus**
 - **C++ Primer**
 - **Datasheet**
+- **Essential C++**
 - **Introduction to Computing Systems [Third Edition]**
 - **Mastering STM32**
 - **Reference Manual**
