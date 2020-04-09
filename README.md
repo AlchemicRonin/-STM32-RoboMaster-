@@ -35,6 +35,7 @@
 - **C++ Primer Plus**
 - **C++ Primer**
 - **Datasheet**
+- **Description of STM32F4 HAL and LL drivers**
 - **Essential C++**
 - **Introduction to Computing Systems [Third Edition]**
 - **Mastering STM32**
