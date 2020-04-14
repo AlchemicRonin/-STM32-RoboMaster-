@@ -37,7 +37,7 @@
 - **Datasheet**
 - **Description of STM32F4 HAL and LL drivers**
 - **Essential C++**
-- **Introduction to Computing Systems [Third Edition]**
+- **Introduction to Computing Systems**
 - **Mastering STM32**
 - **Reference Manual**
 - **STM32 HAL 库开发实战指南—基于F429_挑战者V2**
